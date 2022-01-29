@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Шрифты -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Gilroy.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Nexa.css">
+	<!-- Slick  -->
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/8aff919fab.js" crossorigin="anonymous"></script>
+	<!-- Мои стили -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Scripts -->
+	<script type="text/javascript" src="assets/js/jQuery.js"></script>
+	<script type="text/javascript" src="assets/js/slick.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+	<!-- Icon -->
+	<link rel="icon" type="image/png" sizes="48x48" href="assets/img/icons/logo_48.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/icons/logo_96.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="assets/img/icons/logo_144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icons/logo_192.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="assets/img/icons/logo_256.png">
+	<link rel="icon" type="image/png" sizes="384x384" href="assets/img/icons/logo_384.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="assets/img/icons/logo_512.png">  
+
+	<title>Agency</title>
+</head>
+<body>
+<div class="overflow-hidder">
+
+<div class="popup hidden" id="popup">
+	<div class="form" id="popup-form">
+		<div class="form__inner">
+			<div class="form__header">
+				<div class="form__title">Contact us</div>
+				<a href="#" class="form__close" id="popup-close"><i class="fas fa-times"></i></a>
+			</div>
+			<div class="form__name">
+				<input type="text" placeholder=" ">
+				<label>Full Name</label>
+			</div>
+			<div class="form__mail">
+				<input type="text" placeholder=" ">
+				<label>Email</label>
+			</div>
+			<div class="form__msg">
+				<textarea placeholder=" "></textarea>
+				<label>Message</label>
+			</div>
+			<div class="form__button-inner">
+				<a href="#" class="form__button">Submit</a>
+			</div>
+		</div>
+		<div class="background">
+			<span class="background__box1"></span>
+		</div>
+	</div>
+</div>
+
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__column">
+				<a href="#" class="header__logo" data-scroll="#intro">agency</a>
+				<div class="nav">
+					<a href="#" class="nav__item" data-scroll="#intro">Home</a>
+					<a href="#" class="nav__item" data-scroll="#about">About us</a>
+					<a href="#" class="nav__item" data-scroll="#services">Our Services</a>
+					<a href="#" class="nav__item" data-scroll="#testimonials">Support</a>
+				</div>
+			</div>
+			<a href="#" class="header__contact" id="popup-open">Contact</a>
+		</div>	
+	</div>
+</header>
+
+<div class="intro" id="intro">
+	<svg class="intro__background-art">
+		<circle id="intro__background-tlcircle" stroke="#fff" stroke-width="1" stroke-dasharray="5 2" opacity="0.05" fill="none"  cx="147" cy="10" r="209"/>
+
+		<circle id="intro__background-ivcircle1" stroke="#fff" stroke-width="1" opacity="0.05" fill="none"  cx="908" cy="725" r="113"/>
+		<circle id="intro__background-ivcircle2" stroke="#fff" stroke-width="1" opacity="0.05" fill="none"  cx="908" cy="725" r="136"/>
+		<circle id="intro__background-ivcircle3" stroke="#fff" stroke-width="1" opacity="0.05" fill="none"  cx="908" cy="725" r="160"/>
+		<circle id="intro__background-ivcircle4" stroke="#fff" stroke-width="1" opacity="0.05" fill="none"  cx="908" cy="725" r="184"/>
+
+		<circle id="intro__background-singleDot" opacity="0.1" fill="#fff"  cx="812" cy="598" r="6"/>
+
+		<circle id="intro__background-blcircle1" stroke="#fff" stroke-width="113" opacity="0.07" fill="none" transform="translate(-92, 855)" r="270"/>
+
+		<circle id="intro__background-blcircle2" opacity="0.07" fill="#fff" transform="translate(-92, 823)" r="368"/>
+
+		<defs>
+			<pattern id="intro-bgdots" patternUnits="userSpaceOnUse" width="28" height="28">
+				<circle fill="#fff" cx="14" cy="14" r="1.2"/>
+			</pattern>
+		</defs>
+
+		<rect fill="url(#intro-bgdots)" width="110" height="250" transform="translate(-4, 128)"/>
+	</svg>
+	<svg id="intro__background-size" class="intro__background" preserveAspectRatio="none" viewBox="0 0 2000 2000">
+		<path id="intro__background-form" d="M 2000 1300 C 1992 1540 1900 1770 1760 1800 L 0 2000 L 2000 2000 Z" fill="#fff"/>
+	</svg>
+
+	<div class="container">
+		<div class="intro__inner">
+
+			<div class="intro__column">
+				<div class="main-block">
+					<div class="main-block__title">Creative Design Agency</div>
+					<div class="main-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dolor id nulla gravida blandit.</div>
+					<a href="#" class="main-block__button">Learn more</a>
+				</div>
+			</div>
+
+			<div class="intro__img">
+				<svg viewBox="0 0 867 679">
+					<defs>
+						<pattern id="intro-dots" patternUnits="userSpaceOnUse" width="61" height="61">
+							<circle fill="#fff" fill-opacity="0.25" cx="30.5" cy="30.5" r="4.5"/>
+						</pattern>
+					</defs>
+
+					<rect fill="url(#intro-dots)" width="200" height="300" transform="translate(-12, 137)"/>
+
+					<rect fill="url(#intro-dots)" width="300" height="200" transform="translate(416, -26)"/>
+
+					<circle fill="#ffc727" cx="502" cy="312" r="263"/>
+
+					<circle fill="#00dadc" fill-opacity="0.2" cx="112.5" cy="472.5" r="112.5"/>
+				</svg>
+				<img src="assets/img/intro-img.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="about" id="about">
+
+	<svg id="about__background-size" class="about__background" viewBox="0 0 1920 1000" width="1920" height="1000">
+		<circle id="about__background-tlcircle1" stroke="#4f56ca" stroke-width="120" fill="none" opacity="0.03" cx="1793" cy="281" r="184"/>
+
+		<circle id="about__background-tlcircle1" fill="#4f56ca" opacity="0.03" cx="1793" cy="281" r="275"/>
+	</svg>
+
+	<div class="container">
+
+		<div class="about__inner">
+
+			<div class="about__img">
+				<img src="assets/img/about-img.png">
+			</div>
+
+			<div class="about__column">
+				<div class="main-block">
+					<div class="main-block__suptitle">About Us</div>
+					<div class="main-block__title">Digital Agency Providing various Services</div>
+					<div class="main-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</div>
+					<a href="#" class="main-block__button">Learn more</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="services" id="services">
+	<svg id="services__background-size" class="services__background" preserveAspectRatio="none" viewBox="0 0 2000 2000">
+		<path id="services__background-form" d="M 0 700 C 8 460 100 230 240 200 L 2000 0 L 0 0 Z" fill="#fff">
+	</svg>
+
+	<div class="container">
+		<div class="services__inner">
+
+			<div class="services__column">
+				<div class="main-block">
+					<div class="main-block__suptitle">Our Services</div>
+					<div class="main-block__title">We can take your business to the next level</div>
+					<div class="main-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</div>
+					<a href="#" class="main-block__button">Learn more</a>
+				</div>
+			</div>
+
+			<div class="services__column">
+				<div class="cards">
+					<div class="cards__column">
+
+						<div class="card">
+							<div class="card__img">
+								<img src="assets/img/services/img-1.png">
+							</div>
+							<div class="card__title">UI/UX design</div>
+							<div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+						</div>
+
+						<div class="card">
+							<div class="card__img">
+								<img src="assets/img/services/img-2.png">
+							</div>
+							<div class="card__title">Games</div>
+							<div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+						</div>
+
+					</div>
+					<div class="cards__column">
+
+						<div class="card">
+							<div class="card__img">
+								<img src="assets/img/services/img-3.png">
+							</div>
+							<div class="card__title">Branding</div>
+							<div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+						</div>
+						
+						<div class="card">
+							<div class="card__img">
+								<img src="assets/img/services/img-4.png">
+							</div>
+							<div class="card__title">Marketing</div>
+							<div class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="testimonials" id="testimonials">
+	<svg class="testimonials__sun" width="210" height="210" viewBox="0 0 210 210">
+		<circle stroke="#ffc727" stroke-width="70" fill="none" cx="105" cy="105" r="70"></circle>
+	</svg>
+	<div class="container">
+
+		<div class="testimonials__header">
+			<div class="testimonials__suptitle">Testimonials</div>
+			<div class="testimonials__title">What people say</div>
+		</div>
+
+		<div class="testimonials-content">
+
+			<div class="testimonials-content__background">
+				<img class="map" src="assets/img/testimonials/background.png">
+				<img class="photo ph1" src="assets/img/testimonials/photo_1.png">
+				<img class="photo ph2" src="assets/img/testimonials/photo_2.png">
+				<img class="photo ph3" src="assets/img/testimonials/photo_3.png">
+				<img class="photo ph4" src="assets/img/testimonials/photo_4.png">
+				<img class="photo ph5" src="assets/img/testimonials/photo_5.png">
+				<img class="photo ph6" src="assets/img/testimonials/photo_6.png">
+			</div>
+			<div class="testimonials-content__block testimonials-block">
+				<div class="testimonials-block__content">
+					<div class="testimonials-block__bg"></div>
+					<div class="testimonials-block__arrow prev" id="prev_arrow">
+						<i class="fas fa-arrow-left"></i>
+					</div>
+					<div class="testimonials-block__arrow next" id="next_arrow">
+						<i class="fas fa-arrow-right"></i>
+					</div>
+					<div class="testimonials-block__slider">
+
+						<div class="testimonials-slide">
+						<div class="testimonials-slide__inner">
+							<div class="testimonials-slide__text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</div>
+							<div class="testimonials-slide__name">Zoltan Nemeth</div>
+							<div class="testimonials-slide__stars" data-raiting="5">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						</div>
+
+						<div class="testimonials-slide">
+						<div class="testimonials-slide__inner">
+							<div class="testimonials-slide__text">Evil is Evil. Lesser, greater, middling… Makes no difference. The degree is arbitary. The definition’s blurred.</div>
+							<div class="testimonials-slide__name">Butcher from Blaviken</div>
+							<div class="testimonials-slide__stars" data-raiting="4">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						</div>
+
+						<div class="testimonials-slide">
+						<div class="testimonials-slide__inner">
+							<div class="testimonials-slide__text">If you gaze for long into an abyss, the abyss gazes also into you.</div>
+							<div class="testimonials-slide__name">Friedrich Nietzsche</div>
+							<div class="testimonials-slide__stars" data-raiting="3">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonials-block background">
+					<div class="background__quotation">
+						<img src="assets/img/testimonials/quotation.png">
+					</div>
+					<div class="background__block1"></div>
+					<div class="background__block2"></div>
+					<div class="background__block3"></div>
+					<svg class="background__dots" viewBox="0 0 870 440">
+						<defs>
+							<pattern id="testimonials-bgdots" patternUnits="userSpaceOnUse" width="46" height="46">
+								<circle fill="#fff" cx="23" cy="23" r="3.5"/>
+							</pattern>
+						</defs>
+
+						<rect fill="url(#testimonials-bgdots)" width="140" height="220" transform="translate(-7.5, 237)"/>
+
+						<rect fill="url(#testimonials-bgdots)" width="140" height="220" transform="translate(730, 7)"/>
+
+					</svg>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="testimonials__background__inner">
+		<svg id="testimonials__background-size" class="testimonials__background" preserveAspectRatio="none" viewBox="0 0 2000 2000">
+			<path id="testimonials__background-form" d="M 2000 1300 C 1992 1540 1900 1770 1760 1800 L 0 2000 L 2000 2000 Z" fill="#fcfcff"/>
+		</svg>
+	</div>
+</div>
+
+<div class="contacts" id="contacts">
+	<div class="container">
+		<div class="contacts__inner">
+
+			<div class="contacts__column">
+				<div class="main-block">
+					<div class="main-block__suptitle">Contact us</div>
+					<div class="main-block__title">Don’t Hesitate to Contact us for any Information.</div>
+					<div class="main-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,.</div>
+				</div>
+			</div>
+
+			<div class="contacts__column">
+				<div class="form">
+					<div class="form__inner">
+						<div class="form__name">
+							<input type="text" placeholder=" ">
+							<label>Full Name</label>
+						</div>
+						<div class="form__mail">
+							<input type="text" placeholder=" ">
+							<label>Email</label>
+						</div>
+						<div class="form__msg">
+							<textarea placeholder=" "></textarea>
+							<label>Message</label>
+						</div>
+						<div class="form__button-inner">
+							<a href="#" class="form__button">Submit</a>
+						</div>
+					</div>
+					<div class="background">
+						<span class="background__box1"></span>
+						<span class="background__box2"></span>
+						<svg class="background__circle" viewBox="0 0 210 210">
+							<circle stroke="#00dadc" stroke-width="70" fill="none" cx="105" cy="105" r="70"></circle>
+						</svg>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+	<svg id="footer__background-size" class="footer__background" preserveAspectRatio="none" viewBox="0 0 2000 2000">
+		<path id="footer__background-form" d="M 0 700 C 8 460 100 230 240 200 L 2000 0 L 0 0 Z" fill="#fcfcff">
+	</svg>
+	<div class="container">
+		<div class="footer__main">
+			<a href="#" class="footer__logo" data-scroll="#intro">agency</a>
+			<div class="nav">
+				<a href="#" class="nav__item" data-scroll="#intro">Home</a>
+				<a href="#" class="nav__item" data-scroll="#about">About us</a>
+				<a href="#" class="nav__item" data-scroll="#services">Our Services</a>
+				<a href="#" class="nav__item" data-scroll="#testimonials">Support</a>
+			</div>
+			<div class="footer-contacts">
+				<div class="footer-contacts__item"><i class="fab fa-facebook-f"></i></div>
+				<div class="footer-contacts__item"><i class="fab fa-youtube"></i></div>
+				<div class="footer-contacts__item"><i class="fab fa-twitter"></i></div>
+				<div class="footer-contacts__item"><i class="fab fa-linkedin-in"></i></div>
+			</div>
+		</div>
+		<div class="footer__copy">
+			Copyright © Chirag Bactor 2020
+		</div>	
+	</div>
+</footer>
+
+</div>
+</body>
+</html>
